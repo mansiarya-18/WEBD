@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            color: white;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: rgba(0,0,0,0.7);
+            padding: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* Background Image Section */
+        .bg {
+            height: 92vh; 
+            background-image: url("profile.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .bg h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        .bg p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="left">
+            <div class="logo">M</div>
+            <span style="color:white; font-size:18px; font-weight:bold;">Mansi</span>
+        </div>
+
+        <div class="right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- MAIN BACKGROUND SECTION -->
+    <div class="bg">
+        <h1>👋 Welcome to My Portfolio</h1>
+        <b>I am MansiArya   💛</b>
+
+          <p>A student who loves web development.
+            in this portfolio, you will find my projects, skills, and contact information. Enjoy your stay!</p>  
+    </div>
+
+</body>
+</html>
